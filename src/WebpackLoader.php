@@ -1,6 +1,6 @@
 <?php
 
-namespace Tilpark/WebpackLoader;
+namespace Tilpark\Webpack;
 
 
 /**
@@ -11,7 +11,7 @@ namespace Tilpark/WebpackLoader;
  * @package WebpackLoader
  * @since   1.0
  */
-class WebpackLoader {
+class Loader {
 
   /**
    * Path to Bundle Tracker output

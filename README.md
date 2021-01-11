@@ -11,8 +11,9 @@ composer require tilpark/webpack-loader
 ## Usage
 
 ```php
+use Tilpark\Webpack\Loader;
 // Give the main directory where the asset is located as parameter.
-$loader = new WebpackLoader(__DIR__);
+$loader = new Loader(__DIR__);
 
 // getBundle (extension, entry)
 // example.com/assets/bundles/main.[hash].js
