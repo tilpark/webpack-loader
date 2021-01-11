@@ -1,0 +1,19 @@
+{
+  "name": "tilpark/webpack-loader",
+  "description": "Php core webpack loader",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "m-inan",
+      "email": "muhammet@tilpark.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Tilpark\\WebpackLoader\\": "src/"
+    }
+  },
+  "require": {}
+}
